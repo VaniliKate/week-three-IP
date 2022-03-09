@@ -1,6 +1,5 @@
 body {
     min-height: 100%;
-    color: white;
 }
 
 #intro {
@@ -14,4 +13,9 @@ body {
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
+    color: white;
+}
+
+#about {
+    color: black;
 }
