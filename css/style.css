@@ -59,9 +59,7 @@ body {
 }
 
 #portfolio img {
-
-    margin-bottom: 15px;
-    margin-top: 15px;
+    padding: 15px;
 }
 
 #contact {
@@ -83,4 +81,11 @@ body {
 
 .form-control {
     background-color: transparent;
+
+}
+
+input,
+select,
+textarea {
+    color: white;
 }
