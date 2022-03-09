@@ -55,3 +55,15 @@ body {
     text-align: center;
     padding-top: 40px;
 }
+
+#portfolio .col {
+    padding: 0 4px;
+}
+
+#portfolio img {
+    margin: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
