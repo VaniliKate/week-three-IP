@@ -19,9 +19,13 @@ body {
 #about {
     color: black;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 35px;
 }
 
 #mouse {
-    padding-top: 195px;
+    padding-top: 165px;
+}
+
+#logo {
+    margin-bottom: 20px;
 }
