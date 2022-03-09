@@ -1,5 +1,12 @@
+html {
+    min-height: 100%;
+}
+
 #intro {
     text-align: center;
     font-size: large;
+    background-image: url("../images/firstbackground.jpg");
+    background-size: cover;
     background-color: black;
+    background-repeat: no-repeat;
 }
