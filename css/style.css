@@ -84,8 +84,11 @@ body {
 
 }
 
-input,
-select,
-textarea {
+.form-control::placeholder {
     color: white;
+}
+
+textarea {
+    width: 150px;
+    height: 200px;
 }
