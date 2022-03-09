@@ -7,7 +7,7 @@ body {
     justify-content: center;
     padding: 210px 0;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url("../images/firstbackground.jpg");
     background-size: cover;
     background-color: black;
@@ -20,4 +20,8 @@ body {
     color: black;
     text-align: center;
     padding-top: 40px;
+}
+
+#mouse {
+    padding-top: 195px;
 }
