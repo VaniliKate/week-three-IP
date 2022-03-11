@@ -102,6 +102,14 @@ textarea {
     align-content: center;
 }
 
-.hidden {
+#design-hidden {
+    display: none;
+}
+
+#development-hidden {
+    display: none;
+}
+
+#product-hidden {
     display: none;
 }
