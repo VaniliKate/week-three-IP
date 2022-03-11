@@ -94,5 +94,14 @@ textarea {
 }
 
 .form {
-    padding-left: 200px;
+    padding-left: 150px;
+}
+
+#footer {
+    padding-top: 30px;
+    align-content: center;
+}
+
+.hidden {
+    display: none;
 }
