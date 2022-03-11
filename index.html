@@ -128,23 +128,31 @@
     <div class="container-fluid">
         <section id="contact">
             <h3>CONTACT US</h3>
-            <div class="container form">
-                <div class="row">
-                    <div class="col-5">
-                        <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+            <form onsubmit="return myPopUp()">
+                <div class="container form">
+                    <div class="row">
+                        <div class="col-5">
+                            <input id="name" type="text" class="form-control" placeholder="Name" aria-label="name">
+                        </div>
+                        <div class="col-5">
+                            <input id="email" type="text" class="form-control" placeholder="Email" aria-label="email">
+                        </div>
                     </div>
-                    <div class="col-5">
-                        <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                    <div class="col-10">
+                        <div class="mb-3">
+                            <textarea id="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                style="height:200px;">Text</textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="col-10">
-                    <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            style="color:#fff;height:200px;">Text</textarea>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    <button id="get-name" type="submit" value="Generate name" class="btn">Submit</button>
+            </form>
+            <form>
+                <button class="clear" type="submit" class="btn" onsubmit="return clearInput()"
+                    value="Clear input">Clear</button>
+            </form>
+
+    </div>
+    </section>
     </div>
     <div id="footer">
         <footer>
