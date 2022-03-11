@@ -101,12 +101,9 @@
             <div class="row">
                 <div class="col-md-3">
                     <div onmouseout="normal(this);" onmouseover="hover(this);">
-                        <a href="#" onclick="myClick()">
-                            <div id="headings1">Project one</div>
-                        </a>
                         <img src="./images/work4.jpg" alt="work 4" style="width:300px;height:300px;">
                     </div>
-                    <div onmouseout="normal(this);" onmouseover="hover(this);">
+                    <div class="overlay">
                         <img src="./images/work5.jpg" alt="work 5" style="width:300px;height:300px;">
                     </div>
                 </div>
@@ -128,7 +125,7 @@
     <div class="container-fluid">
         <section id="contact">
             <h3>CONTACT US</h3>
-            <form id="form">
+            <form id="form" onsubmit="return myPopUp()">
                 <div class="container form">
                     <div class="row">
                         <div class="col-5">
@@ -140,10 +137,8 @@
                         </div>
                     </div>
                     <div class="col-10">
-                        <div class="mb-3">
-                            <textarea id="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                style="height:200px;">Text</textarea>
-                        </div>
+                        <input id="text" type="text" class="form-control" placeholder="Talk to us" aria-label="box"
+                            style="height:200px;">
                     </div>
                     <button id="get-name" type="submit" value="Generate name" class="btn">Submit</button>
             </form>

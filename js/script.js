@@ -54,6 +54,12 @@ function normal(mydiv) {
 */
 
 //Form input
+const form = document.getElementById('form');
+const name = document.getElementById('name');
+const email = document.getElementById('email');
+const box = document.getElementById('test');
+
 function myPopUp() {
-    alert("The form was submitted");
+    alert("We have received your message.Thank you for reaching out to us");
+
 }
