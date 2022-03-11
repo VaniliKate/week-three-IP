@@ -1,13 +1,13 @@
 //product management toggle
 
 $(document).ready(function () {
-    $("img").click(function () {
+    $("img", "#product-show").click(function () {
         $("#product-hidden").toggle();
         $("#product-show").toggle();
     });
 });
 $(document).ready(function () {
-    $("p").click(function () {
+    $("p", "#product-hidden").click(function () {
         $("#product-show").toggle();
         $("#product-hidden").toggle();
     });
@@ -15,13 +15,13 @@ $(document).ready(function () {
 
 //design toggle
 $(document).ready(function () {
-    $("img").click(function () {
+    $("img", "#design-show").click(function () {
         $("#design-hidden").toggle();
         $("#design-show").toggle();
     });
 });
 $(document).ready(function () {
-    $("p").click(function () {
+    $("p", "#design-hidden").click(function () {
         $("#design-show").toggle();
         $("#design-hidden").toggle();
     });
@@ -29,13 +29,13 @@ $(document).ready(function () {
 
 //development toggle
 $(document).ready(function () {
-    $("img").click(function () {
+    $("img", "#development-show").click(function () {
         $("#development-hidden").toggle();
         $("#development-show").toggle();
     });
 });
 $(document).ready(function () {
-    $("p").click(function () {
+    $("p", "#development-hidden").click(function () {
         $("#development-show").toggle();
         $("#development-hidden").toggle();
     });
