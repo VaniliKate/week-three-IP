@@ -122,3 +122,13 @@ textarea {
     border-radius: 30px;
     align-self: center;
 }
+
+.click-me {
+    display: block;
+    width: 160px;
+    background: blue;
+}
+
+.text-center {
+    padding-right: 200px;
+}
