@@ -81,7 +81,6 @@ body {
 
 .form-control {
     background-color: transparent;
-
 }
 
 .form-control::placeholder {
@@ -99,7 +98,8 @@ textarea {
 
 #footer {
     padding-top: 30px;
-    align-content: center;
+    padding-left: 390px;
+    padding-bottom: 30px;
 }
 
 #design-hidden {
@@ -118,14 +118,7 @@ textarea {
     padding: 10px 60px;
     cursor: pointer;
     border-color: black;
-    background: green;
+    background: palevioletred;
     border-radius: 30px;
-}
-
-.error {
-    color: red;
-}
-
-.error-border {
-    border-bottom: 1px solid red;
+    align-self: center;
 }
