@@ -129,22 +129,19 @@
                 <div class="container form">
                     <div class="row">
                         <div class="col-5">
-                            <input id="name" type="text" class="form-control" placeholder="Your Name" aria-label="name">
+                            <input id="name" type="text" class="form-control" placeholder="Your Name">
+                            <small class="error"></small>
                         </div>
                         <div class="col-5">
-                            <input id="email" type="text" class="form-control" placeholder="example@gmail.com"
-                                aria-label="email">
+                            <input id="email" type="text" class="form-control" placeholder="example@gmail.com">
+                            <small class="error"></small>
                         </div>
                     </div>
                     <div class="col-10">
-                        <input id="text" type="text" class="form-control" placeholder="Talk to us" aria-label="box"
-                            style="height:200px;">
+                        <textarea id="message" class="form-control" placeholder="Your message"
+                            style="height:200px;"></textarea>
                     </div>
-                    <button id="get-name" type="submit" value="Generate name" class="btn">Submit</button>
-            </form>
-            <form>
-                <button class="clear" type="submit" class="btn" onsubmit="return clearInput()"
-                    value="Clear input">Clear</button>
+                    <button id="get-name" type="submit" value="Generate name" class="btn">Send Message</button>
             </form>
 
     </div>

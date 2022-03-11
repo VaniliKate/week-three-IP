@@ -1,9 +1,8 @@
-# About This Akan name generator
+# About This Delani Studio Website
 
 This project is based on [Javascript CSS HTML](#TechStack).
 
-The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person.
-This Web application will take in a user's year of birth, month of birth, day of birth and selected gender.It will then be possible to determine the exact day of the week the user was born and give them an Akan name based on their gender.
+This website showcases the previous work done by Delani Studios which includes several pictures in the portfolio section on the website.Delani unifies design, development and product management to create exceptional products by understanding their clients business goals, the user's needs and the product requirements. This application also allows its user to reach out to Delani for futher communication.
 
 ## Author
 Kate Vanili, a full stack web developer based in Nairobi,Kenya.
@@ -38,11 +37,11 @@ Make sure you have a browser with javascript enabled.
 ## Application features
 
 ---
--   Input of year of birth.
--   Input month of birth.
--   Input day of birth.
--   Select Gender.
--   Output Akan name.
+-   Input user name.
+-   Input user email.
+-   Input user query.
+-   Submit
+
 ## Live site link
 
 ![alt text](images/home.png)
