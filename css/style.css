@@ -159,6 +159,11 @@ body {
         display: none;
     }
 
+    #textarea {
+        padding-right: 150px;
+
+    }
+
     body {
         background-color: lightblue;
         font-size: smaller;
