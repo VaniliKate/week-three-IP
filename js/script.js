@@ -111,7 +111,7 @@ $("#eight").mouseout(function () {
     $(".img8").hide();
 });
 
-
+/*
 //Form validation
 $(document).ready(function () {
 
@@ -169,6 +169,7 @@ $(document).ready(function () {
         }
     });
 });
+*/
 
 $(document).ready(function () {
     $('#submit').click(function () {
