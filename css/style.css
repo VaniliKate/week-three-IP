@@ -111,15 +111,6 @@ body {
     display: none;
 }
 
-.btn {
-    padding: 10px 60px;
-    cursor: pointer;
-    border-color: black;
-    background: powderblue;
-    border-radius: 50px;
-    align-self: center;
-}
-
 .text-center {
     padding-right: 200px;
 }
@@ -147,7 +138,6 @@ body {
     display: none;
     background: white;
     opacity: 0.5;
-    background-size: 300px 300px;
     font-weight: bolder;
 
 }
@@ -155,17 +145,13 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-    .footer img {
-        display: none;
-    }
-
-    #textarea {
-        padding-right: 150px;
+    .footer {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
 
     }
 
-    body {
-        background-color: lightblue;
-        font-size: smaller;
-    }
+
+
 }
