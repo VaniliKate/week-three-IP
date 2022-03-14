@@ -8,12 +8,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="./css/style.css" rel="stylesheet">
-    <script id="mcjs">
-        ! function (c, h, i, m, p) {
-            m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(
-                m, p)
-        }(document, "script",
-            "https://chimpstatic.com/mcjs-connected/js/users/ad4f3fb543281a358f36e5982/2817e8def2ea686065c121e6d.js");
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>
+        (function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[1] = 'FNAME';
+            ftypes[1] = 'text';
+            fnames[2] = 'LNAME';
+            ftypes[2] = 'text';
+            fnames[3] = 'ADDRESS';
+            ftypes[3] = 'address';
+            fnames[4] = 'PHONE';
+            ftypes[4] = 'phone';
+            fnames[5] = 'BIRTHDAY';
+            ftypes[5] = 'birthday';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
     </script>
     <title>Document</title>
 </head>
@@ -107,20 +121,44 @@
             <h3>PORTFOLIO</h3>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="./images/work4.jpg" alt="work 4" style="width:300px;height:300px;">
-                    <img src="./images/work5.jpg" alt="work 5" style="width:300px;height:300px;">
+                    <div class="containerr">
+                        <img id="one" src="./images/work4.jpg" alt="work 4" style="width:300px;height:300px;">
+                        <div class="img1">Project one</div>
+                    </div>
+                    <div class="containerr">
+                        <img id="two" src="./images/work5.jpg" alt="work 5" style="width:300px;height:300px;">
+                        <div class="img2">Project two</div>
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    <img src="./images/work3.jpg" alt="work 3" style="width:300px;height:300px;">
-                    <img src="./images/work6.jpg" alt="work 3" style="width:300px;height:300px;">
+                    <div class="containerr">
+                        <img id="three" src="./images/work3.jpg" alt="work 3" style="width:300px;height:300px;">
+                        <div class="img3">Project three</div>
+                    </div>
+                    <div class="containerr">
+                        <img id="four" src="./images/work6.jpg" alt="work 3" style="width:300px;height:300px;">
+                        <div class="img4">Project four</div>
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    <img src="./images/work2.jpg" alt="work 2" style="width:300px;height:300px;">
-                    <img src="./images/work7.jpg" alt="work 3" style="width:300px;height:300px;">
+                    <div class="containerr">
+                        <img id="five" src="./images/work2.jpg" alt="work 2" style="width:300px;height:300px;">
+                        <div class="img5">Project five</div>
+                    </div>
+                    <div class="containerr">
+                        <img id="six" src="./images/work7.jpg" alt="work 3" style="width:300px;height:300px;">
+                        <div class="img6">Project six</div>
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    <img src="./images/work1.jpg" alt="work 1" style="width:300px;height:300px;">
-                    <img src="./images/work8.jpg" alt="work 3" style="width:300px;height:300px;">
+                    <div class="containerr">
+                        <img id="seven" src="./images/work1.jpg" alt="work 1" style="width:300px;height:300px;">
+                        <div class="img7">Project seven</div>
+                    </div>
+                    <div class="containerr">
+                        <img id="eight" src="./images/work8.jpg" alt="work 3" style="width:300px;height:300px;">
+                        <div class="img8">Project eight</div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -128,43 +166,50 @@
     <div class="container-fluid">
         <section id="contact">
             <h3>CONTACT US</h3>
-            <form id="form">
-                <div class="container form">
-                    <div class="row">
-                        <div class="col-5">
-                            <div class="form-group">
-                                <input type="text" name="username" id="usernames" class="form-control"
-                                    placeholder="Your Name">
-                                <h5 id="usercheck" style="color: red;">
-                                    **Username is missing
-                                </h5>
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <div class="form-group">
-                                <input type="email" name="email" id="email" required class="form-control"
-                                    placeholder="example@email.com">
-                                <small id="emailvalid" class="form-text
-                                  text-muted invalid-feedback">
-                                    Your email must be a valid email
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10">
-                        <textarea id="message" class="form-control" placeholder="Your message"
-                            style="height:200px;"></textarea>
-                    </div><br>
-                    <div class="text-center">
-                        <input type="submit" id="submitbtn" value="Submit" class="btn btn-primary">
-                    </div>
-            </form>
-
-    </div>
-    </section>
+            <div class="contact">
+                <div id="mc_embed_signup">
+                    <form
+                        action="https://github.us4.list-manage.com/subscribe/post?u=d11e178d2e2b5bcd385fe5ffb&amp;id=6121abc8b1"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                        target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <div class="mc-field-group">
+                                <div class="section5">
+                                    <div class="contact">
+                                        <div class="container form">
+                                            <form class="textbox">
+                                                <div class="row">
+                                                    <div class="col-5 form-group">
+                                                        <input class="name form-control" type="text" id="fname"
+                                                            name="firstname" placeholder="Your name..">
+                                                    </div>
+                                                    <div class="col-5 form-group">
+                                                        <input class="email form-control" type="text" id="email"
+                                                            name="email" placeholder="Your Email.."><br>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div class="col-10">
+                                                <form class="textarea">
+                                                    <textarea class="text form-control" placeholder="Your message"
+                                                        style="height:200px;width:750px"></textarea>
+                                                </form>
+                                            </div>
+                                            <div class="Click">
+                                                <div style="height:20px;width:100px" class="clear"><input type="submit"
+                                                        value="Submit" name="submit" id="submit" class="btn">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
     <footer>
-        <div id="footer">
+        <div class="footer">
             <img src="./images/twitter.png" alt="Twitter">
             <img src="./images/behance.png" alt="Behance">
             <img src="./images/facebook.png" alt="Facebook">
@@ -176,10 +221,11 @@
             <img src="./images/skype.png" alt="Skype">
             <img src="./images/you_tube.png" alt="YouTube"><br>
         </div>
-        <h5 style="text-align: center;">DELANIN STUDIO</h5>
+        <h5 style="text-align: center;">DELANI STUDIO</h5>
         <h5 style="text-align: center;">2019</h5>
 
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>

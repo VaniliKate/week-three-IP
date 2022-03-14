@@ -53,7 +53,66 @@ function normal(mydiv) {
 }
 */
 
+//Hover
 
+$("#one").mouseover(function () {
+    $(".img1").show();
+});
+$("#one").mouseout(function () {
+    $(".img1").hide();
+});
+
+$("#two").mouseover(function () {
+    $(".img2").show();
+});
+$("#two").mouseout(function () {
+    $(".img2").hide();
+});
+
+$("#three").mouseover(function () {
+    $(".img3").show();
+});
+$("#three").mouseout(function () {
+    $(".img3").hide();
+});
+
+$("#four").mouseover(function () {
+    $(".img4").show();
+});
+$("#four").mouseout(function () {
+    $(".img4").hide();
+});
+
+$("#five").mouseover(function () {
+    $(".img5").show();
+});
+$("#five").mouseout(function () {
+    $(".img5").hide();
+});
+
+$("#six").mouseover(function () {
+    $(".img6").show();
+});
+$("#six").mouseout(function () {
+    $(".img6").hide();
+});
+
+$("#seven").mouseover(function () {
+    $(".img7").show();
+});
+$("#seven").mouseout(function () {
+    $(".img7").hide();
+});
+
+$("#eight").mouseover(function () {
+    $(".img8").show();
+});
+$("#eight").mouseout(function () {
+    $(".img8").hide();
+});
+
+
+//Form validation
 $(document).ready(function () {
 
     // Validate name
@@ -111,9 +170,20 @@ $(document).ready(function () {
     });
 });
 
-$("form").on("submit", function (event) {
-    alert("Your message has been received")
-    $("#myform")[0].reset();
+$(document).ready(function () {
+    $('#submit').click(function () {
+        var user = document.getElementById("fname").value;
+        alert("SUBMITTED!!  Thank you " + user + " We have received your message.Thank you for reaching out to us.");
+    });
+});
+$(document).ready(function () {
+    $(".textbox form").submit(function (event) {
+        var NameInput = $("input#fname").val();
+        var emailInput = $("input#email").val();
+        $(".fname").append(NameInput);
+        $(".email").append(emailInput);
+        $("#pop-up").show();
 
-    event.preventDefault();
+        event.preventDefault();
+    });
 });

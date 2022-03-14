@@ -30,7 +30,7 @@ Make sure you have a browser with javascript enabled.
 
 ### Setup Environment
 
-1. Clone the repo : `git clone https://github.com/VaniliKate/week-two-projects.git`
+1. Clone the repo : `git clone https://github.com/VaniliKate/week-three-IP.git`
 2. Locate `index.html` from the file
 3. Run `index.html` file in your favorite browser
 
@@ -44,9 +44,6 @@ Make sure you have a browser with javascript enabled.
 
 ## Live site link
 
-![alt text](images/home.png)
-
-![alt text](images/Output.png)
 
 MIT License
 
